@@ -5,4 +5,12 @@ print()
 n1=int(input('Digite o 1º valor: '))
 n2=int(input('Digite o 2º valor: '))
 n3=int(input('Digite o 3º valor: '))
-print(f'O maior valor dentre os valores digitados é : {max(n3,n2,n1)}')
+maior = n1
+if n2 > maior:
+    maior = n2
+if n3 > maior:
+    maior = n3
+print(f'O maior número é {maior}.')
+
+
+

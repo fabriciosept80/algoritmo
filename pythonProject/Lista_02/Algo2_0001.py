@@ -1,9 +1,10 @@
-# 1-  Faça um Programa que peça os três lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno
+# 1-  Faça um Programa que peça os três lados de um triângulo. O programa deverá informar se os valores podem
+# ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno
 
 def type_tri(n1,n2,n3):
     if n1 == n2 == n3:
         return "Equilatero"
-    if n1 == n2 or n1 == n3:
+    if n1 == n2 or n1 == n3 or n2 == n3:
         return "Isosceles"
     if n1 != n2 != n3:
         return  "Escaleno"
