@@ -6,10 +6,11 @@ print('Descobrindo o número Fibonacci pela posição digitada'.title())
 a = b = 1
 c = count = 0
 n= int(input('Digite um numero: '))
-while count < n:
+while count < n:#>>n-2
     a = b
     b = c
     c = a + b
+    #a,b = b, a + b # jeito do professor.
     count += 1
 print(f'O número {n} corresponde a {c} na sequencia Fibonacci.')
 
